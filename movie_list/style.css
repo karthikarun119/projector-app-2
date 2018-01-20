@@ -40,7 +40,7 @@ body {
     font-size: 12px;
     line-height: 1.3;
     font-family: Arial, Helvetica, Sans-Serif;
-    background-color: rgb(102, 31, 102);
+    background-color: #442b4d;
     
 }
 .rating {
@@ -81,8 +81,8 @@ body {
 
 .logo img
 {
-    width: 165px;
-    height: 60px;
+    width: 150px;
+    height: auto;
 }
 .logo{
     padding-bottom: 15px;
@@ -90,7 +90,7 @@ body {
 #navigation {
     float: right;
     clear: right;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 47px;
     padding-right: 60px;
     
@@ -108,4 +108,33 @@ body {
 a{
     text-decoration:none;
     color: rgb(255, 255, 0)
+}
+.footer{
+
+width:100%;
+padding:40px;
+background-color: black;
+float: right;
+
+
+
+}
+.facebook{
+
+    background-image: url("../images/")
+}
+.link{
+
+    width:30px;
+    height:30px;
+
+
+}
+.footer .logo img{
+    float:right;
+}
+#footer_color{
+    background-color: black;
+    width:100%
+
 }

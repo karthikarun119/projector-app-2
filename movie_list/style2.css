@@ -1,0 +1,59 @@
+
+body{background: #442d4B;
+color: #ffff}
+.add_movie_form{
+    font: 1em sans-serif;
+    width: 500px;
+    margin:20px auto;
+
+}
+.add_movie_form input, .add_movie_form textarea,.add_movie_form select{
+width:100%;
+display:block;
+box-sizing: border-box;
+background:#442d4B;
+padding : 0 5px;
+font-family:inherit;
+font-size:1.2rem;
+border:1px solid white;
+color:inherit;
+margin:7px 0 15px; 
+}
+.add_movie_form label{
+    font-size:0.9rem;
+    
+}
+.add_movie_form h2{
+text-align: center;
+margin:20px 0;
+font-weight:normal;
+font-size:1.8rem;
+
+
+}
+.add_movie_form select{
+background:url("./images/downarrow.png") no-repeat right;
+background-size:12px;
+background-position-x: 98%;
+height:40px;
+overflow:hidden;
+border-radius: 0;
+outline:none;
+
+}
+.add_movie_form .divide{
+    width:49.50%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 0px;
+    }
+.add_movie_form input[type=submit]{
+    width: 100px;
+    height: 40px;
+    margin: 40px auto;
+    background-color:rgb(255, 255, 0);
+    color:rgb(255, 0, 0);
+    font-size:1.2em;
+    border-radius: 0;
+
+}
